@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    height: 100vh;
+    background-color: black;
+}
+
+header img {
+    position: absolute;
+    bottom: 0;
+    height: 70%;
+    right: -45%;
+}
+
+header nav {
+    position: absolute;
+    right: 7%;
+    top: 2%;
+    color: chartreuse;
+    font-size: 8rem;
+}
+
+header hgroup {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    color: chartreuse;
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+header h3 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+#arrow {
+    width: 96px;
+    height: 96px;
+    border: 5px solid chartreuse;
+    position: absolute;
+    bottom: 10%;
+    left 50%;
+    color: chartreuse;
+    transform: translateX(450%);
+    border-radius: 50%;
+    font-size: 6rem;
+    text-align: center;
+}
+
+@media (orientation: portrait) {
+    h3 span::after {
+        content: '\A';
+        white-space: pre;
+    }
+}
